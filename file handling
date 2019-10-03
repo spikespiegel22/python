@@ -1,0 +1,37 @@
+with open("secret.txt","r") as f:
+  print( f.read())
+  content = f.read()
+
+with open ("agents.txt", "w") as i:
+  i.write("salaries")
+  i.write("bonus")
+
+with open("passwords.txt", "r") as p:
+  content = p.read()
+  for line in p:
+    print(line) 
+
+  if "monkey12" in content: 
+    print("True")
+    while "a" in content:
+      num = num + 1
+print(num)
+
+with open ("hey.txt", "r") as l:
+  counter = 0
+  for line in l:
+    counter = counter + 1
+    if "the" in list:
+      print(counter)
+
+with open (“myfile.txt”, “r”) as f:
+    content = f.read()
+    print(content)
+
+with open (“myfile.txt”, “r”) as f:
+    for line in f:
+        print(line)
+    if password in line:
+      print()
+
+
