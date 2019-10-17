@@ -1,0 +1,32 @@
+name = "laura"
+surname = 'spike'
+pargraph = """
+hello this is aline
+  this is another 
+      im indented 
+"""
+text = "hello world"
+print(len(text))
+
+print(text[1])
+#print first letter
+print(text[len(text)-1])
+#print the last letter or charecter
+print(text[-1])
+#print the last letter or charecter
+print(text[:4])
+
+print (text[4:])
+
+msg= "hello"
+msg= msg.upper()
+print(msg)
+
+newMsg = ""
+for i  in msg:
+  if i == "e":
+    newMsg = newMsg + i.upper()
+  else:
+    newMsg = newMsg + i
+
+print(newMsg)  
