@@ -30,3 +30,12 @@ for i  in msg:
     newMsg = newMsg + i
 
 print(newMsg)  
+#######################################
+##########challenge#################
+size =input()
+size= int(size)
+
+x = size
+for i in range(size+1):
+  print(" "* x, "#" *i)
+  x = x -1
