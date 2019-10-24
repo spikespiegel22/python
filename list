@@ -1,0 +1,35 @@
+players = ["Messi", "Iniesta", "Xavi"]
+print(players)
+
+for item in players:
+  print(item)
+
+if "messi" in players:
+  print("item in list")
+
+print(players[0])
+print(len(players))
+
+list = ["in","order","This","is"]
+print(list[2],list[3],list[])
+
+players.append("pique")
+print(players)
+
+players.remove("Neymar")
+print(players)
+
+playes.insert(0,"Henry")
+print(players)
+
+
+  str = "laura"
+objectStr = slice (1, -1)
+if len(str) <= 2:
+  print("inconplete")
+elif str[0] == str[-1]:
+  print("same")
+else:
+  print(str[objectStr])
+
+
