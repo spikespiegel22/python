@@ -1,0 +1,80 @@
+list = ["Manchester", "London", "Liverpool"]
+
+d = {"DUB" : "Dublin",
+"YYZ":"Toronto"}
+#created dictionary in 
+d.pop("DUB")
+#deletes Dublin from dictionary d
+print(d)
+
+d["LHR"] = "London Heathrow"
+#add to the dictionary d
+print(d)
+print(d["LHR"])
+# prints city corresponting to LHR
+
+for key in d:
+  print(d[key])
+
+g = {
+"hello":["hola", "halo", "chesz"],
+
+"yes" : ["si", "ja, ""oui"]
+  
+}
+
+#for key in g:
+ # print(key)
+  #print(g[key])
+
+for key in g:
+  for i in g[key]:
+    print(i)
+ ####################################
+ dictionayBank = {
+"UK" : ["Wembley","Old Trafford"],
+"Italy" : ["San Siro" ,"Allianz Stadium"],
+"Spain" : ["Camp Nou", "San Mamés"]
+}
+
+
+for b in dictionayBank:
+  for i in dictionayBank[b]:
+    print(i ,"is in ", b)
+ #####################################
+ intAsString = {
+ 0:"Zero",
+ 1:"One",
+ 2:"Two",
+ 3:"Three",
+ 4:"Four",
+ 5:"Five",
+ 6:"Six",
+ 7:"Seven",
+ 8:"Eight",
+ 9:"Niine"
+}
+
+intAsString[10] = "Ten"
+for key in intAsString:
+  print(intAsString[key])
+# Add a new key and value for 10 to the dictionary
+
+print(len(intAsString))
+# Output the size of the dictionary
+
+intAsString.pop(0)
+# Remove 0 from the dictionary
+for key in intAsString:
+  print(intAsString[key])
+
+print(len(intAsString))
+# Output the size of the dictionary
+
+intAsString[9] = "Nine"
+# Update the value of key 9 to the correct spelling
+
+for key in intAsString:
+    print(key ,"is ",intAsString[key] )
+# Iterate over the dictionary and print "(key) is (value)"
+  
