@@ -13,3 +13,17 @@ plt.title('Sample graph!')
 
 plt.savefig('tmp.png')
 plt.show()
+####################################
+import matplotlib.pyplot as plt
+x= []
+y= []
+import random
+ #code here
+for i in range (1000):
+  x.append(random.randint(1,100))
+  y.append(random.randint(1,100))
+
+plt.scatter(x,y, s= 20)
+
+plt.savefig('tmp.png')
+plt.show()
