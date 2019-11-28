@@ -1,0 +1,28 @@
+list = [ 5,7,9]
+dict = {}
+
+myset = {5,7,9,1}
+
+print(myset)
+
+myset.add("t")
+print(myset)
+myset.discard("t")
+print(myset)
+
+a = {"john","dave","sandra"}
+b = {"dave","sandra","janet", "jo"}
+
+print(a.difference(b))
+print(b.difference(a))
+
+print(a.intersection(b))
+print(b.intersection(a))
+
+print(a.symmetric_difference(b))
+
+print(a.union(b))
+
+b2= "H ello W ord"
+
+print(b2.split(' '))
